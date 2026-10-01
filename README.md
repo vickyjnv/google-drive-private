@@ -1,4 +1,4 @@
-# Drive Private Video Downloader Pro
+# Google Drive Private Video Downloader
 
 A Google Chrome Extension (Manifest V3) designed to detect and download Google Drive videos directly—including private, restricted, and view-only shares—with verified multiplexed audio, in-page floating controls, and a modern popup interface.
 
@@ -7,7 +7,7 @@ A Google Chrome Extension (Manifest V3) designed to detect and download Google D
 ## Preview
 
 <div align="center">
-  <img src="screenshots/screenshot.png" alt="Drive Private Video Downloader Preview" width="600" />
+  <img src="screenshots/screenshot.png" alt="Google Drive Private Video Downloader Preview" width="600" />
 </div>
 
 ---
@@ -28,7 +28,7 @@ A Google Chrome Extension (Manifest V3) designed to detect and download Google D
 1. Open Google Chrome and navigate to `chrome://extensions/`.
 2. Enable **Developer mode** using the toggle in the top-right corner.
 3. Click **Load unpacked**.
-4. Select the root folder of this project (`c:\Users\vicky\antigravity\google-drive-private`).
+4. Select the project folder.
 5. Open any Google Drive video.
 
 ---
@@ -42,7 +42,7 @@ A Google Chrome Extension (Manifest V3) designed to detect and download Google D
 4. Click to download the MP4 file directly.
 
 ### Method 2: Extension Popup
-1. Click the **Drive Video Pro** icon in the Chrome toolbar.
+1. Click the **Drive Video Downloader** icon in the Chrome toolbar.
 2. View all detected streams, inspect technical stream details (ITAG, MIME), and click **Download MP4**.
 
 ---
@@ -50,7 +50,7 @@ A Google Chrome Extension (Manifest V3) designed to detect and download Google D
 ## Project Structure
 
 ```
-google-drive-private/
+google-drive-private-video-downloader/
 ├── screenshots/       # Preview screenshots
 │   └── screenshot.png
 ├── .gitignore         # Ignores .har, .zip, and temporary files
@@ -70,6 +70,6 @@ google-drive-private/
 
 Designed and developed with ❤️ by **Vicky**  
 - **GitHub Profile**: [@vickyjnv](https://github.com/vickyjnv)  
-- **Repository**: [google-drive-private](https://github.com/vickyjnv/google-drive-private)  
+- **Repository**: [google-drive-private-video-downloader](https://github.com/vickyjnv/google-drive-private-video-downloader)  
 - **License**: MIT
 
