@@ -4,6 +4,14 @@ A Google Chrome Extension (Manifest V3) designed to detect and download Google D
 
 ---
 
+## Preview
+
+<div align="center">
+  <img src="screenshots/screenshot.png" alt="Drive Private Video Downloader Preview" width="600" />
+</div>
+
+---
+
 ## Key Features
 
 - **Progressive Multiplexing Guarantee**: Prioritizes multiplexed formats (`itag 22` 720p HD / `itag 18` 360p SD) containing both video and audio in a single MP4 container, preventing silent/audio-less downloads.
@@ -43,6 +51,8 @@ A Google Chrome Extension (Manifest V3) designed to detect and download Google D
 
 ```
 google-drive-private/
+├── screenshots/       # Preview screenshots
+│   └── screenshot.png
 ├── .gitignore         # Ignores .har, .zip, and temporary files
 ├── manifest.json      # Extension Manifest V3 configuration
 ├── background.js      # Service Worker (CDP interception & storage persistence)
