@@ -1,0 +1,10 @@
+/* Styles for Google Drive Private Video Downloader host */
+#gdrive-private-video-dl-host {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 2147483647;
+  pointer-events: auto;
+  max-width: calc(100vw - 48px);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}

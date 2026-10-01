@@ -1,0 +1,16 @@
+# Logs and captures
+*.har
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node/IDE
+node_modules/
+.vscode/
+.idea/
